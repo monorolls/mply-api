@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>monopoly go</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/monorolls/mplyy@main/2.css" />
+</head>
+<body oncontextmenu="return false;"> 
+
+<div class="container">
+    <div id="my-locker-header"></div>
+    <div class="instruction-text">
+        Complete <u>ONE</u> task from the list below, and the Free Dice + Stickers will be sent directly after completion. 🎁
+    </div>
+    <div id="offerContainer"></div>
+</div>
+
+<div class="modal-overlay" id="offerModal">
+    <div class="modal-content">
+        <div class="modal-header">Complete Offer</div>
+        <div class="modal-body" id="modalText"></div>
+        <a href="#" id="confirmLink" target="_blank" class="modal-btn-confirm">START TASK</a>
+        <a href="javascript:void(0)" onclick="closeModal()" class="modal-btn-cancel">Cancel</a>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/gh/monorolls/mplyy@main/1.js"></script>
+</body>
+</html>
